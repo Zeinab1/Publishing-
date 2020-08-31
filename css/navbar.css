@@ -1,0 +1,44 @@
+.ftco-navbar-light {
+  background-color: transparent !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px 15px;
+}
+.navbar-toggler {
+  border: none;
+  border-radius: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  padding-right: 0;
+  outline: none !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > .nav-link {
+  color: #95adbe;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #000000;
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 24px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #95adbe;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  display: block;
+  background-color: #95adbe;
+  transition: width 0.3s ease-in;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
+  width: 100%;
+}

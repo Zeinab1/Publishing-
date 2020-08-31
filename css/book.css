@@ -1,0 +1,79 @@
+.book-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #f5f4f0;
+  transition: all 0.3s ease;
+}
+.book-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 50%;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.bookicon-wrap {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.bookicon-wrap a {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  display: block;
+  background-color: #fff;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+.bookicon-wrap a i {
+  color: #000;
+}
+.book-wrap .book-text {
+  background-color: #f5f4f0;
+  width: 50%;
+  transition: all 0.3s ease;
+}
+.book-wrap .book-text span {
+  color: #ff7a5c;
+  font-weight: 700;
+}
+.book-wrap .book-text h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.book-wrap .book-text h2 a {
+  color: #000;
+}
+/*hover for book-wrap*/
+.book-wrap:hover {
+  background-color: #95adbe;
+}
+.book-wrap:hover .book-text {
+  background-color: #95adbe;
+}
+.book-wrap:hover .book-text span {
+  color: #fff;
+}
+.book-wrap:hover .book-text h2 a {
+  color: #fff;
+}
+.book-wrap:hover .book-text p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.book-wrap:hover .bookicon-wrap {
+  visibility: visible;
+  opacity: 1;
+}
+/* hover for icon */
+.bookicon-wrap a:hover {
+  background-color: #ff7a5c;
+}
+.bookicon-wrap a:hover i {
+  color: #fff;
+}

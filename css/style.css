@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+}
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: gray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+a {
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+}
+li {
+  list-style: none;
+}
+button {
+  border: 0 !important;
+  outline: 0 !important;
+}
+.animate {
+  opacity: 0;
+  visibility: hidden;
+}
+/*start heading section */
+.heading-section .sub-heading {
+  color: #ff7a5c;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.heading-section .main-heading {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+/*end heading section */
+/* padding and margin classes*/
+.pbt-section {
+  padding: 6em 0;
+}
+.no-pt {
+  padding-top: 0 !important;
+}
+.no-pb {
+  padding-bottom: 0 !important;
+}
+.pb-5 {
+  padding-bottom: 3rem;
+}
+.bg-black {
+  background-color: #000;
+}
+@media (min-width: 992px) {
+  /* about section */
+  .about-content {
+    margin-top: -80px;
+  }
+}
+@media (max-width: 991px) {
+  /*logo section */
+  .social-media {
+    margin: 0 auto;
+  }
+  /*navbar section */
+
+  .ftco-navbar-light {
+    background-color: #000 !important;
+  }
+  .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #fff;
+  }
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  /*home section */
+  .home-banner {
+    background-position: center !important;
+  }
+}
+@media (min-width: 767px) {
+  /*footer section */
+  .col-md {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  /*logo section */
+  .social-media {
+    margin-bottom: 20px;
+  }
+  /*author section */
+  .author-img {
+    opacity: 0;
+    visibility: hidden;
+  }
+  /*blog section */
+  .blog-item {
+    margin-bottom: 30px;
+  }
+  .blog-item p {
+    margin-bottom: 0;
+  }
+}

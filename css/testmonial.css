@@ -1,0 +1,111 @@
+#testmonial {
+  padding-top: 102px;
+  position: relative;
+}
+#testmonial .testmonial-bgimg {
+  background-image: url("../images/bg_4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  z-index: -1;
+}
+.testmonial-bgimg .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #95adbe;
+  opacity: 0.8;
+}
+
+#testmonial .sub-heading {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+#testmonial .main-heading {
+  color: #fff !important;
+}
+/* testmonial card */
+
+.testmonial-wrap {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0 20px;
+  position: relative;
+  box-shadow: 0 30px 33px -41px rgba(0, 0, 0, 0.24);
+}
+.testmonial-icon {
+  position: absolute;
+  top: -21px;
+  background-color: #95adbe;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+.testmonial-text {
+  padding: 20px 0;
+}
+.user-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.testmonial-text .name {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.testmonial-text .position {
+  color: #4d4d4d;
+  font-size: 16px;
+}
+/* carousel style for dot */
+.carousel-testimony .owl-stage-outer {
+  position: relative;
+  padding: 20px 0;
+}
+.owl-carousel .owl-item {
+  opacity: 0.4;
+}
+.owl-carousel .owl-item.active {
+  opacity: 1;
+}
+.carousel-testimony .owl-dots {
+  text-align: center;
+}
+.carousel-testimony .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+}
+.carousel-testimony .owl-dots .owl-dot.active {
+  background: #95adbe;
+}
+.carousel-testimony .owl-dots .owl-dot:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: 0;
+  right: 0;
+}
+.owl-carousel .owl-item img {
+  width: 80px;
+}
